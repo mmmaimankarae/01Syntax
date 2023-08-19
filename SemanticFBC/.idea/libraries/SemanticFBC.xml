@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SemanticFBC">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/SemanticFBC.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

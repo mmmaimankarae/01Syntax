@@ -1,18 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package interfaceseparation;
 
-/**
- *
- * @author sarun
- */
 public class MyClass implements Interface1, Interface2, Interface3 {
-
-    public void printVal() {
+    /* Implements all abstract methods */
+    public void printVal() { /* Method of MyClass (not implement) */
         System.out.println("printVal val = " + val);
     }
     @Override

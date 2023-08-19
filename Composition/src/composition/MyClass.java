@@ -1,17 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package composition;
 
-/**
- *
- * @author user
- */
 public class MyClass {
+    /* Attribute แบบ Object
+     * ซึ่ง Reference ไปถึง MyAggregatedClass */
     private MyCompositionClass cp;
     public MyClass() {
+        /* สร้างObject ของMyCompositionClass
+         * อยู่ข้างในConstructor */
         cp = new MyCompositionClass();
     }
     public void func() {

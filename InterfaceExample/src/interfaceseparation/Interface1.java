@@ -1,17 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package interfaceseparation;
 
-/**
- *
- * @author sarun
- */
 public interface Interface1 {
-    int val = 5; 
+    /* In java: Interface must have only "abstract method".
+    *  Abstract method doesn't have body. */
+    /* Can define constant (final = ค่าคงที่) */
+    /* Default: final static */ int val = 5;
+    /* Static = เรียกใช้ได้ผ่านทางชื่อInterface */
     public void func1(int a);
     public void func2(double b);
 }

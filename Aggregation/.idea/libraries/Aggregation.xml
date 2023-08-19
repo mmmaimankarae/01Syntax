@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Aggregation">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/Aggregation.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
