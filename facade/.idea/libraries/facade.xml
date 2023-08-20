@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="facade">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/facade.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

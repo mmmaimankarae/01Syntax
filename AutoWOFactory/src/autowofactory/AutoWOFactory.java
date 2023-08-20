@@ -1,30 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package autowofactory;
-
-/**
- *
- * @author sarun
- */
+/* Class of Client */
 public class AutoWOFactory {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Automobile myAuto = getCarTypeFromUser("Ford");
-	System.out.println(myAuto);
+	    System.out.println(myAuto);
     }
+    /* method ที่ยังต้องอ้างถึง concrete class (Process) */
     public static Automobile getCarTypeFromUser(String type) {
         Automobile auto = null;
         if (type.equals("Toyota")) 
             auto = new Toyota();
-	else if (type.equals("Ford"))
+	    else if (type.equals("Ford"))
             auto = new Ford();
-	return auto;
+	    return auto;
+        /* ถ้าเพิ่มยี่ห้อรถ จะต้องมาแก้โปรแกรมฝั่งClient ด้วย */
     } 
 }

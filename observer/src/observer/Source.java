@@ -1,14 +1,8 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package observer;
-
-/**
- *
- * @author sarun
- */
+/* Interface & Abstract method */
 public interface Source {
+    /* แจ้งให้Observer ทราบ */
     public void notifyObservers();
+    /* การลงทะเบียนของObserver */
     public void register(MyObserver observer);
 }
